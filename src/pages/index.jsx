@@ -76,7 +76,7 @@ export default function Home() {
               </div>
             </div>
             <div>
-              <h1 className="text-zinc-800 dark:text-zinc-200 transition-all duration-300 cursor-pointer text-3xl leading-none font-semibold weight-900 button-text">{lanyardUsername} <span className="text-zinc-400 font-bold mr-1 button-text">#{lanyardDiscriminator}</span></h1>
+              <h1 className="text-zinc-800 dark:text-zinc-200 transition-all duration-300 cursor-pointer text-3xl leading-none font-semibold weight-900 button-text">DoBestMan <span className="text-zinc-400 font-bold mr-1 button-text">#0421</span></h1>
             </div>
           </div>
           )}
@@ -109,7 +109,7 @@ export default function Home() {
               <p className="text-xl text-gray-600/90 dark:text-white/50 font-bold text-center mb-5 mt-3 button-text">
                   Here are some of my repositories
                   </p>
-                  <div className="flex flex-row flex-wrap flex-1 justify-center items-center gap-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-stretch">
+                  {/* <div className="flex flex-row flex-wrap flex-1 justify-center items-center gap-5 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 items-stretch">
           {_reposData ? (
             reposData && (
               <>
@@ -165,7 +165,7 @@ export default function Home() {
               </>
             )
           ) : <></>}
-          </div>
+          </div> */}
         </div>
       )}
 
